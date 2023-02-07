@@ -3,7 +3,38 @@ import './Navbar.css' ;
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className="n-wrapper">
+        {/*left*/}
+        <div className="n-left">
+         <div className="n-name">Arnold</div>
+         <div>togle</div>
+        </div>
+        {/* right */}
+        <div className="n-right">
+          <div className="n-list">
+            <ul>
+              <li>
+                  Home
+              </li>
+              <li>
+                  service
+              </li> 
+              <li>
+                  experience
+              </li>
+              <li>
+              Protfolio
+              </li> 
+              <li>
+              Testimonial
+              </li>
+              <button className='button n-button'>
+                contact
+              </button>
+            </ul>
+          </div>
+        </div>
+    </div>
   )
 }
 
