@@ -23,7 +23,7 @@ const Navbar = () => {
                   experience
               </li>
               <li>
-              Protfolio
+              Portfolio
               </li> 
               <li>
               Testimonial
