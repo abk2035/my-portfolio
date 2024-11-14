@@ -4,7 +4,7 @@ import Card from '../Card/Card';
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import Resume from './resume.pdf';
+import Resume from './Resume-KENGNE_ARNOLD_BORELE-2024-1.2.pdf';
 import { motion } from "framer-motion";
 import { themeContext } from "../../Context";
 
@@ -33,7 +33,7 @@ const Services = () => {
         <br />
         ispum is simpley dummy text of printing
       </spane>
-      <a href={Resume}download>
+      <a href={Resume} download target="blanc" rel="noopener noreferrer">
         <button className="button s-button">Download CV</button>
       </a>
       <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
